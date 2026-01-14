@@ -1,0 +1,11 @@
+#only input one path
+protein_file_path=D:\WTop\src\data\uniprotkb_9606_AND_model_organism_9606_2024_04_22.fasta_target_decoy
+
+#ptm file path
+ptm_file_path=D:\LYC\wtop_3\WTop\src\data\mods.txt
+
+#if you have multi-msalign-file , you can add more path like (msalign_file_path=XXX)
+msalign_file_path=D:\WTop\src\data\RM_20190801_NK_F2_02_ms2.msalign
+
+#thread number
+thread_number=1

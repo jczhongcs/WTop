@@ -1,0 +1,35 @@
+
+
+-x config -i (任意) -p (任意)
+-i r -p r -x config // 从配置文件读取(config_argument)
+
+-x command  用命令行输入如下
+//以下两条order 运用于跑整个数据集
+./cwdm -i data/origin/human_pro_decoy.txt -p data/peer/muti_ms.msalign -o data/align/test_align
+
+./cwdm -i data/origin/human_pro_decoy.txt -p data/peer/muti_ms.msalign -t 2
+
+./cwdm -i data/origin/human_pro_decoy.txt -p data/WHIM2/RP4H_1_ms2 -o data/align/test_align
+
+./cwdm -i data/origin/human_pro_decoy.txt -p data/WHIM2/RP4H_1_ms2.msalign -o data/align/test_align
+
+./cwdm -i data/origin/human_pro_decoy.txt -p data/WHIM2/RP4H_2_ms2.msalign -t 4
+
+./cwdm -i data/origin/human_pro_decoy.txt -p data/peer/2DLC_H31_ms2.msalign -o data/modification/mods.txt -t 8
+
+-i data/origin/human_protein_iosform_decoy.txt -p data/peer/RM_20190804_TCells_CD19CD20_F1F2_01_ms2.msalign -o data/modification/mods.txt -t 8
+
+cwdm -i data/origin/human_pro_decoy.txt -p data/peer/2DLC_H2B_ms2.msalign -t 4
+
+cwdm -i data/origin/human_pro_decoy.txt -p data/peer/2DLC_H4_ms2.msalign
+
+ -i data/origin/human_pro_decoy.txt -p data/peer/2DLC_H2A_ms2.msalign
+
+ -i data/origin/human_pro_decoy.txt -p data/peer/2DLC_H2B_ms2.msalign
+
+  -i data/origin/human_pro_decoy.txt -p data/peer/2DLC_H4_ms2.msalign -t 6
+
+ -i data/origin/test -p data/peer/test
+
+-i data/origin/human_pro_decoy.txt -p data/peer/test
+
